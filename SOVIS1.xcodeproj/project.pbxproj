@@ -42,6 +42,11 @@
 		28C267E61D1C25320059868C /* woojeong.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 28C267DE1D1C25320059868C /* woojeong.jpg */; };
 		28C267E71D1C25320059868C /* yongssa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 28C267DF1D1C25320059868C /* yongssa.jpg */; };
 		28C267E81D1C25320059868C /* coco.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 28C267E01D1C25320059868C /* coco.jpg */; };
+		28F9CBD71D33D9EA00219FC6 /* BarcodeScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F9CBD61D33D9EA00219FC6 /* BarcodeScanner.swift */; };
+		28F9CBD91D33DE1000219FC6 /* BacodeGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F9CBD81D33DE1000219FC6 /* BacodeGenerator.swift */; };
+		28F9CBDC1D33E1F400219FC6 /* MobileStudentCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F9CBDB1D33E1F400219FC6 /* MobileStudentCard.swift */; };
+		28F9CBDE1D342C4500219FC6 /* BarCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F9CBDD1D342C4500219FC6 /* BarCodeViewController.swift */; };
+		28F9CBE11D3434C700219FC6 /* Code39.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F9CBE01D3434C700219FC6 /* Code39.m */; };
 		A39CE4921D26ADA300AE2CCB /* REC_U2.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39CE4911D26ADA300AE2CCB /* REC_U2.swift */; };
 		A39CE49E1D2BD19500AE2CCB /* REDLIGHT.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39CE49D1D2BD19500AE2CCB /* REDLIGHT.swift */; };
 		A39CE4A31D2BFF2A00AE2CCB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A39CE4A11D2BFF2A00AE2CCB /* Main.storyboard */; };
@@ -103,6 +108,13 @@
 		28C267DE1D1C25320059868C /* woojeong.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = woojeong.jpg; sourceTree = "<group>"; };
 		28C267DF1D1C25320059868C /* yongssa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yongssa.jpg; sourceTree = "<group>"; };
 		28C267E01D1C25320059868C /* coco.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = coco.jpg; sourceTree = "<group>"; };
+		28F9CBD61D33D9EA00219FC6 /* BarcodeScanner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarcodeScanner.swift; sourceTree = "<group>"; };
+		28F9CBD81D33DE1000219FC6 /* BacodeGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BacodeGenerator.swift; sourceTree = "<group>"; };
+		28F9CBDB1D33E1F400219FC6 /* MobileStudentCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MobileStudentCard.swift; sourceTree = "<group>"; };
+		28F9CBDD1D342C4500219FC6 /* BarCodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarCodeViewController.swift; sourceTree = "<group>"; };
+		28F9CBDF1D3434C700219FC6 /* Code39.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Code39.h; sourceTree = "<group>"; };
+		28F9CBE01D3434C700219FC6 /* Code39.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Code39.m; sourceTree = "<group>"; };
+		28F9CBE21D34546700219FC6 /* albatower_2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = albatower_2; sourceTree = "<group>"; };
 		A39CE4911D26ADA300AE2CCB /* REC_U2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = REC_U2.swift; sourceTree = "<group>"; };
 		A39CE49D1D2BD19500AE2CCB /* REDLIGHT.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = REDLIGHT.swift; sourceTree = "<group>"; };
 		A39CE4A21D2BFF2A00AE2CCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -173,6 +185,7 @@
 		280F46EF1D17D41F004290C4 /* SOVIS1 */ = {
 			isa = PBXGroup;
 			children = (
+				28F9CBDA1D33E1D800219FC6 /* 학생증 */,
 				D37BBDFC1D2BB547008383D7 /* 주변정보 */,
 				2889FB3D1D2A741F00F2F9C7 /* settings */,
 				D38E29821D2652BA001A7769 /* 공지,일정 */,
@@ -233,6 +246,7 @@
 		28C04D8A1D1ACC9C00BC3B32 /* ImageSet */ = {
 			isa = PBXGroup;
 			children = (
+				28F9CBE21D34546700219FC6 /* albatower_2 */,
 				A39CE4A41D2C022400AE2CCB /* KakaoTalk_Photo_2016-07-05-23-56-12_98.jpeg */,
 				289860DF1D1C8E2100BF87D6 /* icon-60@3x.png */,
 				289860DD1D1C899C00BF87D6 /* Sovis.png */,
@@ -248,6 +262,28 @@
 			);
 			name = ImageSet;
 			path = SOVIS1;
+			sourceTree = "<group>";
+		};
+		28F9CBD51D33D9D300219FC6 /* 바코드 */ = {
+			isa = PBXGroup;
+			children = (
+				28F9CBDF1D3434C700219FC6 /* Code39.h */,
+				28F9CBE01D3434C700219FC6 /* Code39.m */,
+				28F9CBD61D33D9EA00219FC6 /* BarcodeScanner.swift */,
+				28F9CBD81D33DE1000219FC6 /* BacodeGenerator.swift */,
+				28F9CBDD1D342C4500219FC6 /* BarCodeViewController.swift */,
+			);
+			name = "바코드";
+			path = ..;
+			sourceTree = "<group>";
+		};
+		28F9CBDA1D33E1D800219FC6 /* 학생증 */ = {
+			isa = PBXGroup;
+			children = (
+				28F9CBD51D33D9D300219FC6 /* 바코드 */,
+				28F9CBDB1D33E1F400219FC6 /* MobileStudentCard.swift */,
+			);
+			name = "학생증";
 			sourceTree = "<group>";
 		};
 		D37BBDFC1D2BB547008383D7 /* 주변정보 */ = {
@@ -370,20 +406,25 @@
 				280F47221D17F02F004290C4 /* StoreClass.swift in Sources */,
 				D37BBDF61D2B9D1B008383D7 /* 학사공지.swift in Sources */,
 				2889FB3F1D2A744900F2F9C7 /* VersionInfo.swift in Sources */,
+				28F9CBDC1D33E1F400219FC6 /* MobileStudentCard.swift in Sources */,
 				A39CE49E1D2BD19500AE2CCB /* REDLIGHT.swift in Sources */,
 				D37BBE031D2BB562008383D7 /* CategoryViewController.swift in Sources */,
 				280F47831D1A8361004290C4 /* ViewStoreDetail.swift in Sources */,
 				280F46F11D17D41F004290C4 /* AppDelegate.swift in Sources */,
+				28F9CBD71D33D9EA00219FC6 /* BarcodeScanner.swift in Sources */,
 				D37BBE061D2BB562008383D7 /* SelectViewController.swift in Sources */,
 				A3BF450E1D1ADBDC00334083 /* TTS_UIViewController.m in Sources */,
 				D37BBDF21D2B9D1B008383D7 /* 공지사항.swift in Sources */,
 				D37BBDF41D2B9D1B008383D7 /* 장학공지.swift in Sources */,
 				D37BBDF91D2B9D1B008383D7 /* URL.swift in Sources */,
 				A39CE4921D26ADA300AE2CCB /* REC_U2.swift in Sources */,
+				28F9CBDE1D342C4500219FC6 /* BarCodeViewController.swift in Sources */,
+				28F9CBD91D33DE1000219FC6 /* BacodeGenerator.swift in Sources */,
 				2889FB431D2AB8D800F2F9C7 /* speechrecognize.swift in Sources */,
 				D37BBE041D2BB562008383D7 /* DataViewController.swift in Sources */,
 				280F47201D17ED11004290C4 /* ListViewController.swift in Sources */,
 				280F47281D19547C004290C4 /* TableViewControllerDetail.swift in Sources */,
+				28F9CBE11D3434C700219FC6 /* Code39.m in Sources */,
 				289860D81D1C657B00BF87D6 /* Storelist.swift in Sources */,
 				280F472A1D1959E4004290C4 /* TableViewControllerStoreList.swift in Sources */,
 				2889FB3C1D2A68DD00F2F9C7 /* AppSetting.swift in Sources */,

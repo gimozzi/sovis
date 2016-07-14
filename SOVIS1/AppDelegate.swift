@@ -37,6 +37,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         {
             defaults.setObject("컴퓨터공학과", forKey: "Major")
         }
+        
+        if defaults.objectForKey("ProfilePhoto") == nil{
+            let imageData = UIImagePNGRepresentation(UIImage(named: "Sogang")!)
+            let myEncodedImageData = NSKeyedArchiver.archivedDataWithRootObject(imageData!)
+            defaults.setObject(myEncodedImageData, forKey: "ProfilePhoto")
+        }
         return true
     }
 

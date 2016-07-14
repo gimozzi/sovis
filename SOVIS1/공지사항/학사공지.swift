@@ -90,12 +90,21 @@ class AcademyNoticeController : UIViewController, UITableViewDelegate, UITableVi
         
         let url = NSURL(string: key)
         
-        let data = NSData(contentsOfURL: url!)
+        guard let data = NSData(contentsOfURL: url!) else{
         
         //print(NSString(data: data!, encoding: NSUTF8StringEncoding))
         
+            var noti = NotificationList()
+            noti.Title = "servertimeout"
+            noti.date = ""
+            noti.URL = ""
+            self.list.append(noti)
+            return
+        }
+       
+        
         do{
-            let JsonObject = try NSJSONSerialization.JSONObjectWithData(data!, options: []) as! NSDictionary
+            let JsonObject = try NSJSONSerialization.JSONObjectWithData(data, options: []) as! NSDictionary
             
             let boarder = JsonObject["boarder"] as! NSArray
             
